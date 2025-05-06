@@ -71,6 +71,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Project Structure
 
+```
+
 /app
 /cv/page.tsx
 /cover-letter/page.tsx
@@ -84,3 +86,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 /public
 /styles
 /globals.css
+
+```
