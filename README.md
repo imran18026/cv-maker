@@ -29,8 +29,58 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+# cv-maker is a CV & Letter Generator Website
+
+A simple and functional web application to generate and download **CVs**, **Cover Letters**, and **Motivation Letters** as **PDF files**. Built with **Next.js 14**, **Tailwind CSS**, and **jsPDF**.
+
+## ✨ Features
+
+- Create:
+  - CV (Resume)
+  - Cover Letter
+  - Motivation Letter
+- User-friendly forms for each document type
+- Generate and download documents in **PDF format**
+- Clean, responsive UI using **Tailwind CSS**
+- No external animations, focused on usability and performance
+
+## 🚀 Tech Stack
+
+- [Next.js 15](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [jsPDF](https://github.com/parallax/jsPDF) – for PDF generation
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/imran18026/cv-maker.git
+cd cv-letter-generator
+npm install
+```
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+```
+
+```
+
+## Project Structure
+
+/app
+/cv/page.tsx
+/cover-letter/page.tsx
+/motivation-letter/page.tsx
+/components
+/LetterForm.tsx
+/Preview.tsx
+/DownloadButton.tsx
+/Header.tsx
+/Footer.tsx
+/public
+/styles
+/globals.css
